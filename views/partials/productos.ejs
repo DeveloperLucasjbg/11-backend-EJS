@@ -1,0 +1,10 @@
+<ul style="">
+    <% products.forEach(function(products){ %>
+    <li style="display: flex; margin: 1em;">
+        <h4> <%= products.tittle %> </h4>
+        <h3 style="margin-left: 1em"><%= products.price %> </h3>
+   
+        <img style=" margin-left: 1em; width: 3em;" src="<%= products.thumbail%>" alt="">
+    </li>
+           <% }); %>
+</ul>
